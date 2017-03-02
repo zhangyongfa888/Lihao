@@ -1,0 +1,20 @@
+html, body, div, span, applet, object, iframe,textarea,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, input,button, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: none;font-size: 100%;vertical-align: baseline;font-weight:normal;font-family: 'microsoft yahei';color: #8da0b1;}
+html,body {font-size: 20px;}
+body {margin: 0 auto;min-width: 320px;background-color: #e8ecee;}
+ol, ul {list-style: none;}
+a {text-decoration:none;}
+:focus {outline: none;}
+.clear:after {display: block;clear: both;content: "";visibility: hidden;height: 0;}
+.clear {zoom: 1;}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;border-radius: 0;-webkit-border-radius: 0;}
+input:focus {-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-modify:read-write-plaintext-only;}
+textarea { -webkit-appearance: none;}
+@media screen and (max-width:720px){
+    html,body{font-size: 16px;}
+}
+@media screen and (max-width:640px){
+    html,body{font-size: 14px;}
+}
+@media screen and (max-width:480px){
+    html,body{font-size: 12px;}
+}
